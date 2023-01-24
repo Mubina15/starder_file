@@ -3,13 +3,394 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple starter</title>
+  <title>Fashion-Haus</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   
-  <h1>Simple starter</h1>
+  <h1 class="visually-hidden">Fashion Haus</h1>
+
+
+  <header>
+    <div class="container header__container">
+
+      <a href="index.html">
+        <img class="header__logo" src="/img/Logo.svg" alt="Logo" width="182" height="26">
+      </a>
+
+      <ul class="header__list">
+        <li class="header__item">
+          <a class="header__item--link" href="#">
+            Latest News
+          </a>
+        </li>
+        <li class="header__item">
+          <a class="header__item--link" href="#">
+            Shopping
+          </a>
+        </li>
+        <li class="header__item">
+          <a class="header__item--link" href="#">
+            Blog
+          </a>
+        </li>
+        <li class="header__item">
+          <a class="header__item--link" href="#">
+            Community
+          </a>
+        </li>
+        <li class="header__item">
+          <a class="header__item--link" href="#">
+            Reviews
+          </a>
+        </li>
+        <li class="header__item">
+          <a class="header__item--link Members" href="#">
+            Members
+          </a>
+        </li>
+      </ul>
+
+      <button class="opBtn open-btn"></button>
+      <button class="clBtn close-cl"></button>
+    </div>
+  <ul class="list-js list-none">
+      <li class="item">
+        <a class="link" href="#">
+          Latest News
+        </a>
+      </li>
+      <li class="item">
+        <a class="link" href="#">
+          Shopping
+        </a>
+      </li>
+      <li class="item">
+        <a class="link" href="#">
+          Blog
+        </a>
+      </li>
+      <li class="item">
+        <a class="link" href="#">
+          Community
+        </a>
+      </li>
+      <li class="item">
+        <a class="link" href="#">
+          Reviews
+        </a>
+      </li>
+      <li class="item">
+        <a class="link" href="#">
+          Members
+        </a>
+      </li>
+  </ul>
+  </header>
+
+  <nav class="intro">
+    <div class="container intro__container">
+      <div class="intro__div">
+        <h1 class="intro__title">
+          Fashion fits from the big brands.
+        </h1>
+        <p class="intro__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.
+        </p>
+        <a class="intro__link" href="#">
+          Learn more
+        </a>
+      </div>
+
+     <div class="image-div image">
+      <img class="girl__image" src="/img/girl.jpg" alt="girl" width="465" height="611">
+     </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="sect">
+      <div class="container main__section">
+        <h4 class="news__title">
+          News Reel
+        </h4>
+        <h2 class="letest__title">
+          Latest Updates
+        </h2>
+
+        <div class="super__div--two">
+          <div class="image__div--two2 image">
+            <img class="girls__image" src="/img/girls.jpg" alt="girl"  width="400" height="566">
+           </div>
+       
+          <div class="super">
+            <h5 class="super__title">
+              10/04/2021
+            </h5>
+            <h2 class="hot__title">
+              Be super confident in hot skirts.
+            </h2>
+            <p class="super__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.
+            </p>
+            <p class="hot__text">
+              
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.
+            </p>
+            <a class="super__link" href="#">
+              Learn more
+            </a>
+            <hr>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="sect__second">
+      <div class="container main__section">
+        <div class="super__div--two">
+          <div class="super__div">
+            <h5 class="super__title">
+              10/04/2021
+            </h5>
+            <h2 class="hot__title">
+              Be super confident in hot skirts.
+            </h2>
+            <p class="super__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.
+            </p>
+            <p class="hot__text">
+              
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.
+            </p>
+            <a class="super__link" href="#">
+              Learn more
+            </a>
+            <hr>
+          </div>
+          <div class="image__div--two image">
+            <img class="girls__image" src="/img/model.jpg" alt="girl"  width="400" height="566">
+           </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container sect__second">
+        <h4 class="news__title">
+          Infomation
+        </h4>
+        <h2 class="letest__title">
+          Know your bags
+        </h2>
+        
+        <ul class="main__list">
+          <li class="main__item">
+            <a href="#" class="main__item--link">
+              <img src="/img/sumka.png" alt="popka" width="105" height="96">
+              <h4 class="main__title">
+                The  Clutch
+              </h4>
+              <p class="main__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. 
+              </p>
+              <a class="super__link" href="#">
+                Learn more
+              </a>
+          </a>
+        </li>
+
+        <li class="main__item">
+          <a href="#" class="main__item--link">
+            <img src="/img/bag.png" alt="popka" width="95" height="80">
+            <h4 class="main__title">
+              The Backpack
+            </h4>
+            <p class="main__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. 
+            </p>
+            <a class="super__link" href="#">
+              Learn more
+            </a>
+        </a>
+      </li>
+
+      <li class="main__item3">
+        <a href="#" class="main__item--link">
+          <img style="padding-top: 10px;" src="/img/popka.png" alt="popka" width="105" height="87">
+          <h4 class="main__title3">
+            The Traveller
+          </h4>
+          <p class="main__text3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. 
+          </p>
+          <a class="super__link3" href="#">
+            Learn more
+          </a>
+      </a>
+    </li>
+        </ul>
+
+        <img class="point" src="/img/point.png" alt="point" width="45" height="60">
+
+      </div>
+    </section>
+    <section style="background: #FFF9F0;">
+      <div class="container News__container">
+        <h4 class="news__title">
+          Reviews
+        </h4>
+        <h2 class="let__title">
+          What you’ve been saying
+        </h2>
+       <div class="card__div">
+        <div class="card">
+          <img style="margin-left: 97px;" src="/img/Profile_Photo.png" alt="Profile_Photo" width="96" height="93">
+
+          <h3 class="card__title">
+            Trisha Lion
+          </h3>
+
+          <h4 class="hermes__title">
+            Hermes Clutch
+          </h4>
+
+          <p class="card__text">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+          </p>
+
+          <a class="card__link" href="#">
+            Shop Item
+          </a>
+
+        </div>
+        <div class="card">
+          <img style="margin-left: 97px;" src="/img/mark.png" alt="Profile_Photo" width="96" height="93">
+
+          <h3 class="card__title">
+            Lionel Tech
+          </h3>
+
+          <h4 class="hermes__title">
+            Hermes Clutch
+          </h4>
+
+          <p class="card__text">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+          </p>
+
+          <a class="card__link" href="#">
+            Shop Item
+          </a>
+
+        </div>
+        <div class="card">
+          <img style="margin-left: 97px;"src="/img/anna.png" alt="Profile_Photo" width="96" height="93">
+
+          <h3 class="card__title">
+            Britney Spears
+          </h3>
+
+          <h4 class="hermes__title">
+            Hermes Clutch
+          </h4>
+
+          <p class="card__text">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+          </p>
+
+          <a class="card__link" href="#">
+            Shop Item
+          </a>
+
+        </div>
+       </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h1 class="back__title">
+          Want fits?
+Join the mailing list.
+        </h1>
+        <p class="back__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.
+        </p>
+        <a class="intro__link segn" href="#">
+          Sign up now
+        </a>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h4 style="margin-top: 252px;" class="news__title">
+          Brands
+        </h4>
+        <h2 class="letest__title">
+          Who we’re trippin’ over
+        
+        </h2>
+
+        <div class="brends">
+
+
+         <div style="display: flex; align-items: center;" class="">
+          <img class="brends__images-1" src="/img/Hermes.png" alt="Hermes">
+
+          <img class="brends__images-2" src="/img/adidas.png" alt="adidas">
+
+          <img class="brends__images-3" src="./img/nike.png" alt="nike">
+         </div>
+
+         <div style="display: flex; align-items: center;" class="dad">
+          <img class="brends__images-4" src="/img/gucci.png" alt="gucci">
+
+          <img class="brends__images-5" src="/img/chanel.png" alt="chanel">
+
+          <img class="brends__images-6" src="/img/luisviton.png" alt="luisviton">
+         </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section style="padding-top: 400px;">
+      <div class="container">
+        <h2 class="title">
+          The latest in fashion news and views
+        </h2>
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.
+        </p>
+        <div>
+          <div class="image__div--two image">
+            <img class="girls__image" src="/img/man.jpg" alt="girl"  width="400" height="566">
+           </div>
+           <div class="">
+            <h2>
+              Big news is coming out of the house of Hermes.
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros.
+            </p>
+            <a class="super__link3" href="#">
+              Learn more
+            </a>
+           </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
 
   <script src="js/main.js"></script>
 </body>
